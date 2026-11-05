@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Caixa da Obra</title>
+<meta name="description" content="Pagamentos de obra organizados pelo WhatsApp: pedido, aprovação, cobrança ao cliente e comprovante conferido.">
+<style>
+  :root { --azul: #1747a6; --azul-escuro: #0e2f70; --amarelo: #f5c400; --texto: #1c2430; --fundo: #f7f8fb; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: var(--texto); background: var(--fundo); line-height: 1.55; }
+  header { background: var(--azul); color: #fff; padding: 56px 20px 64px; border-bottom: 8px solid var(--amarelo); }
+  .wrap { max-width: 760px; margin: 0 auto; }
+  .marca { font-size: clamp(2.2rem, 7vw, 3.4rem); font-weight: 800; letter-spacing: -0.02em; margin: 0; }
+  .marca span { color: var(--amarelo); }
+  header p { font-size: 1.2rem; margin: 12px 0 0; max-width: 34ch; color: #e6ecfa; }
+  main { padding: 40px 20px 56px; }
+  h2 { color: var(--azul-escuro); font-size: 1.3rem; margin: 0 0 16px; }
+  ol { margin: 0; padding: 0; list-style: none; display: grid; gap: 12px; }
+  li { background: #fff; border-left: 5px solid var(--amarelo); border-radius: 8px; padding: 14px 18px; box-shadow: 0 1px 2px rgba(0,0,0,.06); }
+  li strong { color: var(--azul); }
+  footer { text-align: center; padding: 24px 20px 40px; font-size: .9rem; color: #5b6575; }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1 class="marca">Caixa da <span>Obra</span></h1>
+    <p>Pagamentos de obra organizados pelo WhatsApp.</p>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+    <h2>Como funciona</h2>
+    <ol>
+      <li><strong>Pedido:</strong> quem está na obra manda o pagamento pelo WhatsApp, com valor, fornecedor e anexo.</li>
+      <li><strong>Aprovação:</strong> a gestão aprova no WhatsApp ou no painel.</li>
+      <li><strong>Cobrança:</strong> o cliente recebe a cobrança com a chave Pix ou o boleto do fornecedor.</li>
+      <li><strong>Comprovante:</strong> o comprovante enviado pelo cliente é conferido e o pagamento é baixado.</li>
+      <li><strong>Relatório:</strong> no fim do mês, a planilha da obra sai pronta.</li>
+    </ol>
+  </div>
+</main>
+<footer>© 2026 Caixa da Obra</footer>
+</body>
+</html>
